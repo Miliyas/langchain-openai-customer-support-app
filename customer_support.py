@@ -82,7 +82,7 @@ class CustomerSupportPipeline:
 if __name__ == "__main__":
     import os
 
-    api_key = "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"
+    api_key = "<>"
 
     # Set the OpenAI API key as an environment variable
     os.environ['OPENAI_API_KEY'] = api_key
