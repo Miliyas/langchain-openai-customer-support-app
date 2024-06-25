@@ -8,11 +8,11 @@ import os
 
 
 
-api_key = "<>"
 
 # Set the OpenAI API key as an environment variable
-os.environ['OPENAI_API_KEY'] = api_key
-
+#os.environ['OPENAI_API_KEY'] = api_key
+api_key = os.getenv('OPENAI_API_KEY')
+st.write(f"Your OpenAI API Key is: {api_key}")
 
 st.title("Hi, I'm your Shopify Agent")
 
